@@ -17,7 +17,7 @@ if ($uploadValid == 0){
 	if (move_uploaded_file($_FILES["fto"]["tmp_name"], $filename)) {
 		echo "The file " . basename( $_FILES["fto"]["name"]). " has been uploaded.<br>";
 		echo '<a href="./index.html">Home Page</a><br>';
-		echo 'a href="./listfiles.php">List Uploaded Files</a>';
+		echo '<a href="./listfiles.php">List Uploaded Files</a>';
 	} else {
 		echo "An unknown error has occurred. Please try again.";
 	}
