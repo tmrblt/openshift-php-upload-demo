@@ -15,7 +15,7 @@ if ($uploadValid == 0){
 	echo "Error: Your file cannot be uploaded as-is. Please make sure it's the correct size before attempting again.";
 } else {
 	if (move_uploaded_file($_FILES["fto"]["tmp_name"], $filename)) {
-		echo "The file " . basename( $_FILES["fto"]["name"]). " has been uploaded.";
+		echo "The file " . basename( $_FILES["fto"]["name"]). " has been uploaded." . " <a href="/index.php">Home Page</a>" ;
 	} else {
 		echo "An unknown error has occurred. Please try again.";
 	}
