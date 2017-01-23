@@ -1,5 +1,5 @@
 <?php
-$datadir = "/opt/app-root/src/uploaded"
+$datadir = "/opt/app-root/src/uploaded";
 /* Display all file except core application files */
 if ($handle = opendir($datadir)) {
    while (false !== ($file = readdir($handle))) {
