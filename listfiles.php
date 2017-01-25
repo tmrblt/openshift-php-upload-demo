@@ -13,4 +13,5 @@ if ($handle = opendir($datadir)) {
   }
 echo "<h4>List of files:</h4>";
 echo "<ul>" . $thelist . "</ul>";
+echo '<a href="./index.html">Home Page</a><br>';
 ?>
