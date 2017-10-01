@@ -1,4 +1,4 @@
-<?php require_once("includes/header.php" ?>
+<?php require_once("includes/header.php") ?>
     <h1>OpenShift File Upload Demonstration</h1><hr>
 
 <?php
@@ -42,4 +42,4 @@ if (isset($_POST['submit']) {
 	</div>
 </form>
 
-<?php require_once("includes/footer.php" ?>
+<?php require_once("includes/footer.php") ?>
