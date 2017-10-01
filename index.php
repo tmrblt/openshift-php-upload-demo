@@ -3,7 +3,7 @@
 
 <?php
 // Doesn't do any sort of checking on the file validity just yet.
-if (isset($_POST['submit']) {
+if (isset($_POST['submit'])) {
 	$upload_dir = "uploaded/";
 	$filename = $upload_dir . basename($_FILES["fto"]["name"]);
 	$uploadValid = 1;
