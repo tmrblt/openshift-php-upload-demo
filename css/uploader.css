@@ -1,11 +1,3 @@
-<!doctype html>
-<html lang="en">
-<head>
-  <meta charset="utf-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-  <title>Welcome to OpenShift</title>
-
-<style>
   .logo {
     background-size: cover;
     height: 58px;
@@ -181,29 +173,3 @@ line-height: 1.4;
   overflow: auto;
   font-family: Menlo,Monaco,"Liberation Mono",Consolas,monospace !important;
 }
-</style>
-
-</head>
-<body>
-
-<section class='container'>
-          <hgroup>
-            	<h1>OpenShift File Upload Demonstration</h1>
-          </hgroup>
-
-		<form action="upload.php" method="post" enctype="multipart/form-data">
-			<h2>Select a file to upload*:</h2>
-			<input type="file" name="fto" id="fto">
-			<input type="submit" value="Upload" name="submit">
-		</form><br>
-
-		<p><em>*</em>The maximum size file allowed is 20480KB (20MB)</p><br>
-		<a href="/listfiles.php">List Uploaded Files</a>
-<p> Information about your server <a href="info.php">here</a></p>
-        <footer>
-          <div class="logo"><a href="https://www.openshift.com/"></a></div>
-        </footer>
-</section>
-
-</body>
-</html>
