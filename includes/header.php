@@ -1,4 +1,9 @@
 <!doctype html>
+
+<?php
+echo gethostname(); // may output e.g,: sandie
+?>
+
 <html lang="en">
 <head>
   <meta charset="utf-8">
